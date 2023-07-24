@@ -1,0 +1,686 @@
+@media (min-width: 320px) and (max-width: 990px) {
+    .container {
+      width: 95%;
+      overflow: hidden;
+    }
+  
+    .blog-section .container {
+      flex-direction: column !important;
+  
+      .main-side {
+        width: 100% !important;
+        margin-bottom: 10px !important;
+      }
+    }
+  
+    .header-bottom .container .right-side a {
+      display: none;
+    }
+  
+    .blog-section {
+      .container aside {
+        width: 100% !important;
+      }
+  
+      .blogs .articles-container {
+        row-gap: 10px;
+        flex-wrap: wrap !important;
+      }
+  
+      .container .main-side .blogs {
+        display: flex;
+        justify-content: space-between;
+        column-gap: 20px;
+        flex-wrap: wrap;
+        row-gap: 20px;
+  
+        article {
+          width: 100%;
+        }
+      }
+    }
+  
+    .banner {
+      background-position: center;
+      height: 50vh;
+    }
+  
+    .shape {
+      display: none;
+    }
+  
+    .banner .banner-inner {
+      top: 10% !important;
+  
+      h1 {
+        line-height: 30px !important;
+      }
+  
+      p {
+        margin-left: 10px !important;
+        font-size: 12px !important;
+      }
+  
+      a {
+        font-size: 12px !important;
+      }
+  
+      h1 {
+        .little {
+          font-size: 30px !important;
+        }
+  
+        span {
+          font-size: 40px !important;
+        }
+      }
+    }
+  
+    .header-top {
+      display: none !important;
+    }
+  
+    .header-bottom nav {
+      display: none;
+    }
+  
+    .side-bar-menu-section {
+      .side-bar {
+        width: 100% !important;
+      }
+  
+      .get-in-touch {
+        display: none;
+      }
+    }
+  
+    .mobilenav {
+      display: block;
+      margin: 20px 0px !important;
+    }
+  
+    .title-area h2 {
+      font-size: 40px !important;
+    }
+  
+    .video-section .container {
+      max-height: 350px !important;
+  
+      img {
+        object-fit: cover;
+      }
+  
+      h2 {
+        font-size: 1.5rem;
+      }
+    }
+  
+    .team-area-section {
+      .circle-shape {
+        max-width: 333px;
+        max-height: 333px;
+        bottom: -45% !important;
+        right: -15% !important;
+  
+        h5 {
+          font-size: 20px !important;
+        }
+  
+        span {
+          font-size: 16px !important;
+        }
+  
+        .text {
+          margin-left: 70px !important;
+          margin-top: 80px !important;
+        }
+      }
+  
+      .row {
+        flex-wrap: wrap;
+      }
+  
+      article {
+        width: 100% !important;
+      }
+    }
+  
+    .area-header h2 {
+      font-size: 40px !important;
+    }
+  
+    .callto-area-section h3 {
+      font-size: 27px !important;
+      line-height: 30px !important;
+    }
+  
+    .section-header h2, .blog-header h2 {
+      font-size: 30px !important;
+    }
+  
+    .blog-area-section {
+      .thumbnail .image {
+        height: 100% !important;
+      }
+  
+      .main, .nomain {
+        font-size: 14px !important;
+      }
+  
+      h5 {
+        font-size: 18px !important;
+      }
+  
+      .row {
+        flex-wrap: wrap;
+  
+        article {
+          width: 100% !important;
+        }
+      }
+    }
+  
+    .footer-inner input {
+      max-width: 10% !important;
+    }
+  
+    .row-footer {
+      flex-wrap: wrap;
+  
+      article {
+        width: 50% !important;
+      }
+    }
+  
+    .blogs-inner article {
+      display: flex !important;
+      width: 100% !important;
+      align-items: center;
+      justify-content: space-between !important;
+    }
+  
+    .swiper article {
+      width: 100% !important;
+    }
+  
+    .service-area-section {
+      .cards-row {
+        flex-wrap: wrap;
+        column-gap: 10px;
+        row-gap: 30px;
+      }
+  
+      a {
+        font-size: 10px !important;
+      }
+  
+      .cards-row article {
+        width: 100% !important;
+      }
+  
+      h2 {
+        font-size: 16px !important;
+      }
+  
+      span {
+        font-size: 12px !important;
+      }
+  
+      h5 {
+        font-size: 18px !important;
+        margin-bottom: 10px;
+      }
+  
+      padding: 50px 0px;
+    }
+  
+    .contact-inner .right-side {
+      width: 100% !important;
+    }
+  
+    .about-area-section {
+      h2 {
+        font-size: 24px !important;
+      }
+  
+      .right-side {
+        display: none;
+      }
+  
+      .container .left-side {
+        width: 100% !important;
+        padding-right: 0px !important;
+      }
+    }
+  
+    .item-check-inner {
+      width: 100% !important;
+    }
+  
+    .client-rating-section {
+      margin-top: 100px !important;
+      display: none;
+    }
+  
+    .working-progress-section {
+      article h5 {
+        font-size: 18px !important;
+      }
+  
+      .row {
+        article {
+          width: 100% !important;
+        }
+  
+        flex-wrap: wrap;
+      }
+    }
+  
+    .portfolio-area-section .container .row {
+      width: 100% !important;
+  
+      article {
+        width: 100% !important;
+      }
+    }
+  
+    .footer-inner .article-inner .quick-link-inner ul li {
+      font-size: 13px !important;
+    }
+  }
+  
+  @media (min-width: 768px) and (max-width: 991px) {
+    .container {
+      max-width: 70%;
+      overflow: hidden;
+    }
+  
+    .blog-section .container {
+      flex-direction: column !important;
+  
+      .main-side {
+        width: 100% !important;
+        margin-bottom: 10px !important;
+      }
+  
+      aside {
+        width: 100% !important;
+      }
+    }
+  
+    .blogs .articles-container {
+      row-gap: 10px;
+    }
+  
+    .banner {
+      background-position: center;
+  
+      .banner-inner {
+        top: 20% !important;
+  
+        h1 {
+          .little {
+            font-size: 51px !important;
+          }
+  
+          span {
+            font-size: 73px !important;
+            line-height: 0px;
+          }
+        }
+      }
+    }
+  
+    .header-top {
+      display: none !important;
+    }
+  
+    .header-bottom nav, .side-bar-menu-section .get-in-touch {
+      display: none;
+    }
+  
+    .mobilenav {
+      display: block;
+      margin: 20px 0px !important;
+    }
+  
+    .title-area h2 {
+      font-size: 40px !important;
+    }
+  
+    .video-section .container {
+      max-height: 350px !important;
+  
+      img {
+        object-fit: cover;
+      }
+  
+      h2 {
+        font-size: 4.5rem;
+      }
+    }
+  
+    .team-area-section {
+      .circle-shape {
+        max-width: 333px;
+        max-height: 333px;
+        bottom: -45% !important;
+        right: -15% !important;
+  
+        h5 {
+          font-size: 20px !important;
+        }
+  
+        span {
+          font-size: 16px !important;
+        }
+  
+        .text {
+          margin-left: 70px !important;
+          margin-top: 80px !important;
+        }
+      }
+  
+      .row {
+        flex-wrap: wrap;
+      }
+  
+      article {
+        width: 50% !important;
+      }
+    }
+  
+    .area-header h2 {
+      font-size: 40px !important;
+    }
+  
+    .callto-area-section h3 {
+      font-size: 27px !important;
+      line-height: 30px !important;
+    }
+  
+    .section-header h2, .blog-header h2 {
+      font-size: 30px !important;
+    }
+  
+    .blog-area-section {
+      .thumbnail .image {
+        height: 100% !important;
+      }
+  
+      .main, .nomain {
+        font-size: 14px !important;
+      }
+  
+      h5 {
+        font-size: 18px !important;
+      }
+  
+      .row {
+        flex-wrap: wrap;
+  
+        article {
+          width: 100% !important;
+        }
+      }
+    }
+  
+    .footer-inner input {
+      max-width: 10% !important;
+    }
+  
+    .row-footer {
+      flex-wrap: wrap;
+  
+      article {
+        width: 50% !important;
+      }
+    }
+  
+    .blogs-inner article {
+      display: flex !important;
+      width: 100% !important;
+      align-items: center;
+      justify-content: space-between !important;
+    }
+  
+    .swiper article {
+      width: 100% !important;
+    }
+  
+    .service-area-section {
+      .cards-row {
+        flex-wrap: wrap;
+        column-gap: 10px;
+        row-gap: 20px;
+  
+        article {
+          width: 48% !important;
+        }
+      }
+  
+      h2 {
+        font-size: 24px !important;
+      }
+  
+      h5 {
+        font-size: 18px !important;
+        margin-bottom: 10px;
+      }
+  
+      padding: 50px 0px;
+    }
+  
+    .contact-inner .right-side {
+      width: 100% !important;
+    }
+  
+    .about-area-section {
+      h2 {
+        font-size: 24px !important;
+      }
+  
+      .right-side {
+        display: none;
+      }
+  
+      .container .left-side {
+        width: 100% !important;
+        padding-right: 0px !important;
+      }
+    }
+  
+    .item-check-inner {
+      width: 100% !important;
+    }
+  
+    .client-rating-section {
+      margin-top: 100px !important;
+    }
+  
+    .working-progress-section article h5 {
+      font-size: 18px !important;
+    }
+  
+    .portfolio-area-section .container .row {
+      width: 100% !important;
+  
+      article {
+        width: 100% !important;
+      }
+    }
+  
+    .footer-inner .article-inner .quick-link-inner ul li {
+      font-size: 13px !important;
+    }
+  }
+  
+  @media (min-width: 992px) and (max-width: 1199px) {
+    .container {
+      max-width: 80%;
+    }
+  
+    .blog-section .container {
+      flex-direction: column !important;
+  
+      .main-side {
+        width: 100% !important;
+        margin-bottom: 10px !important;
+      }
+  
+      aside {
+        width: 100% !important;
+      }
+    }
+  
+    .blogs .articles-container {
+      row-gap: 10px;
+    }
+  
+    .header-top {
+      display: none !important;
+    }
+  
+    .header-bottom nav, .side-bar-menu-section .get-in-touch {
+      display: none;
+    }
+  
+    .mobilenav {
+      display: block;
+      margin: 20px 0px !important;
+    }
+  
+    .title-area h2 {
+      font-size: 40px !important;
+    }
+  
+    .video-section .container {
+      max-height: 400px !important;
+  
+      img {
+        object-fit: cover;
+      }
+  
+      h2 {
+        font-size: 5.5rem;
+      }
+    }
+  
+    .team-area-section .circle-shape {
+      max-width: 200px;
+      max-height: 200px;
+      bottom: -35% !important;
+      right: -10% !important;
+  
+      h5 {
+        font-size: 14px !important;
+      }
+  
+      span {
+        font-size: 12px !important;
+      }
+  
+      .text {
+        margin-left: 40px !important;
+        margin-top: 40px !important;
+      }
+    }
+  
+    .area-header h2 {
+      font-size: 40px !important;
+    }
+  
+    .callto-area-section h3, .section-header h2, .blog-header h2 {
+      font-size: 30px !important;
+    }
+  
+    .blog-area-section {
+      .thumbnail .image {
+        height: 150px !important;
+      }
+  
+      .main, .nomain {
+        font-size: 14px !important;
+      }
+  
+      h5 {
+        font-size: 18px !important;
+      }
+    }
+  
+    .footer-inner input {
+      max-width: 300px !important;
+    }
+  
+    .row-footer {
+      flex-wrap: wrap;
+  
+      article {
+        width: 50% !important;
+      }
+    }
+  
+    .blogs-inner article {
+      display: flex !important;
+      width: 100% !important;
+      align-items: center;
+      justify-content: space-between !important;
+    }
+  
+    .swiper article {
+      width: 100% !important;
+    }
+  }
+  
+  @media (min-width: 1200px) and (max-width: 1399px) {
+    .container {
+      width: 90%;
+    }
+  
+    .video-section .container {
+      max-height: 500px !important;
+  
+      img {
+        object-fit: cover;
+      }
+  
+      h2 {
+        font-size: 5.5rem;
+      }
+    }
+  
+    .team-area-section .circle-shape {
+      max-width: 200px;
+      max-height: 200px;
+      bottom: -20% !important;
+      right: -6% !important;
+  
+      h5 {
+        font-size: 14px !important;
+      }
+  
+      span {
+        font-size: 12px !important;
+      }
+  
+      .text {
+        margin-left: 50px !important;
+        margin-top: 50px !important;
+      }
+    }
+  
+    .blog-area-section .thumbnail .image {
+      height: 170px !important;
+    }
+  
+    .footer-inner .article-inner .quick-link-inner ul li, opening-time-inner li {
+      font-size: 14px !important;
+    }
+  }
+  
+  @media (min-width: 1400px) {
+    .container {
+      width: 1300px;
+    }
+  }
+  
